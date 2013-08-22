@@ -18,7 +18,7 @@ object BuildSettings {
     shellPrompt  := ShellPrompt.buildShellPrompt,
     resolvers    += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/releases/",
     resolvers    += "Ticketfly GitHub Repo" at "http://ticketfly.github.com/repo",
-    publishTo    := Some(Resolver.file("bigtoast.github.com", file(Path.userHome + "/Projects/BigToast/bigtoast.github.com/repo")))
+    publishTo    := Some(Resolver.file("octo47.github.com", file(Path.userHome + "/Projects/github/octo47.github.com/repo")))
   )
 }
 
